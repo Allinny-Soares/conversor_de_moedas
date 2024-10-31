@@ -14,7 +14,6 @@ import com.google.gson.JsonParseException;
 import com.google.gson.JsonObject;
 
 public class ConversorDeMoedas {
-
     private static final String API_KEY = "c2333f13df1754b301075522"; // Substitua pela sua chave
     private static final String API_BASE_URL = "https://v6.exchangerate-api.com/v6/";
     private static final List<String> moedasValidas = Arrays.asList("BRL", "USD", "EUR", "JPY");
